@@ -56,7 +56,6 @@ public class Client {
         this.rezervari_client = rezervari_client;
     }
 
-
     @Override
     public String toString() {
         return "Client{" +
