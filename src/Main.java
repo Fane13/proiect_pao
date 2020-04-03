@@ -1,4 +1,3 @@
-
 import helper.Spectacole_helper_ext;
 import model.Client;
 import model.Spectacol;
