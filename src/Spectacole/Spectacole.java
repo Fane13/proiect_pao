@@ -3,7 +3,6 @@ package Spectacole;
 import model.Client;
 import model.Actori;
 import model.Rezervare;
-
 public interface Spectacole {
     public void adauga_client(Client client);
 
