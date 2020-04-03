@@ -5,8 +5,7 @@ public class Actori {
     private String prenume_actor;
     private String rol;
 
-    public Actori(String nume_actor,String prenume_actor,String rol)
-    {
+    public Actori(String nume_actor, String prenume_actor, String rol) {
         this.nume_actor = nume_actor;
         this.prenume_actor = prenume_actor;
         this.rol = rol;

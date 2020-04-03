@@ -1,11 +1,12 @@
 package model;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import Spectacole.Spectacole;
 
-public class Spectacol implements Spectacole{
-    private String nume_spectacol ;
+public class Spectacol implements Spectacole {
+    private String nume_spectacol;
     private int pret_bilet;
     private String data_si_ora;
 
@@ -13,21 +14,21 @@ public class Spectacol implements Spectacole{
     private List<Rezervare> revervari = new ArrayList<>();
     private List<Client> clienti = new ArrayList<>();
 
-    public Spectacol(String nume_spectacol,int pret_bilet,String data_si_ora){
+    public Spectacol(String nume_spectacol, int pret_bilet, String data_si_ora) {
         this.nume_spectacol = nume_spectacol;
         this.data_si_ora = data_si_ora;
-        this.pret_bilet =pret_bilet;
+        this.pret_bilet = pret_bilet;
 
     }
 
 
-    public Spectacol(String nume_spectacol, int pret_bilet, String data_si_ora, List<Actori> actori, List<Rezervare> rezervari,List<Client> clienti){
+    public Spectacol(String nume_spectacol, int pret_bilet, String data_si_ora, List<Actori> actori, List<Rezervare> rezervari, List<Client> clienti) {
         this.nume_spectacol = nume_spectacol;
         this.data_si_ora = data_si_ora;
-        this.pret_bilet =pret_bilet;
-        this.actori  = actori;
+        this.pret_bilet = pret_bilet;
+        this.actori = actori;
         this.revervari = rezervari;
-        this.clienti =clienti;
+        this.clienti = clienti;
     }
 
     public String getNume_spectacol() {
@@ -88,11 +89,11 @@ public class Spectacol implements Spectacole{
     @Override
     public void sterge_client(int index) {
         this.clienti.remove(index);
-        System.out.println(">>>>>>>>>>>S-a sters din sistem clientul cu indexul : "+ index +" <<<<<<<<<<<<<<");
+        System.out.println(">>>>>>>>>>>S-a sters din sistem clientul cu indexul : " + index + " <<<<<<<<<<<<<<");
     }
 
     @Override
-    public void adauga_rezervare(Rezervare rezervare){
+    public void adauga_rezervare(Rezervare rezervare) {
         this.revervari.add(rezervare);
         System.out.println(rezervare);
     }

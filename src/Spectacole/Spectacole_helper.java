@@ -1,4 +1,5 @@
 package Spectacole;
+
 import model.Spectacol;
 
 public abstract class Spectacole_helper {

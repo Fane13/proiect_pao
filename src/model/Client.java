@@ -16,7 +16,6 @@ public class Client {
         this.cod_client = cod_client;
 
 
-
     }
 
     public void adauga_rezervare(Rezervare rezervare) {
