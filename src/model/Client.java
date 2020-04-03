@@ -20,7 +20,7 @@ public class Client {
 
     public void adauga_rezervare(Rezervare rezervare) {
         rezervari_client.add(rezervare);
-        System.out.println(">>>>>>>>La clientul " + this.nume_client + " " + this.prenume_client + " " + this.cod_client + "s-a adaugat rezervarea <<<<<<<<");
+        System.out.println(">>>>>>>>La clientul " + this.nume_client + " " + this.prenume_client + " " + this.cod_client + " s-a adaugat rezervarea <<<<<<<<");
         System.out.println(rezervare);
     }
 
