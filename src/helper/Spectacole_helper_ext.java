@@ -13,7 +13,7 @@ import java.util.List;
 public class Spectacole_helper_ext extends Spectacole_helper {
     @Override
     public Spectacol adauga_spectacol_cu_date_de_baza() {
-        //ACTORI
+        //Actori
         Actori actor1 = new Actori("Pelea", "Amza", "actor_principal");
         Actori actor2 = new Actori("Malaele", "Horatiu", "actor_principal");
         Actori actor3 = new Actori("Radulescu", "Dan", "actor_secundar");
@@ -30,7 +30,7 @@ public class Spectacole_helper_ext extends Spectacole_helper {
         List<Rezervare> comenzi = new ArrayList<>();
         comenzi.add(rez);
 
-        //clienti
+        //Clienti
         Client client1 = new Client("Glodeanu", "Alexandru", 123);
         Client client2 = new Client("Turtoi", "Radu", 46);
 
