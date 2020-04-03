@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-import Spectacole.Spectacole;
+import spectacole.Spectacole;
 
 public class Spectacol implements Spectacole {
     private String nume_spectacol;

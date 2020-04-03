@@ -1,13 +1,12 @@
 package helper;
 
-import Spectacole.Spectacole_helper;
+import spectacole.Spectacole_helper;
 import model.Spectacol;
 import model.Rezervare;
 import model.Actori;
 import model.Client;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 

@@ -1,4 +1,4 @@
-package Spectacole;
+package spectacole;
 
 import model.Client;
 import model.Actori;
