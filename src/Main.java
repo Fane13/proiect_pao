@@ -13,23 +13,9 @@ public class Main {
 
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("\n");
-        System.out.println("Spectacolul " + spectacol.getNume_spectacol() + " este disponibil la data de " + spectacol.getData_si_ora() +
-                " iar pretul unui bilet este de " + spectacol.getPret_bilet());
-        System.out.println("\n");
-        System.out.println("Selectati una din optiunile de mai jos pentru a afla mai multe informatii.");
-
-        System.out.println("1.Adauga client");
-        System.out.println("2.Sterge client");
-        System.out.println("3.Adauga actor");
-        System.out.println("4.Listeaza clientii si rezervarile acestora");
-        System.out.println("5.Listeaza actorii si rolurile acestora");
-        System.out.println("6.exit");
-
 
         while (true) {
             System.out.println("Selectati una din optiunile de mai jos pentru a afla mai multe informatii.");
-
             System.out.println("1.Adauga client");
             System.out.println("2.Sterge client");
             System.out.println("3.Adauga actor");
